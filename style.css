@@ -1,0 +1,447 @@
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 1000px;
+}
+#info{
+    width: 100%;
+    max-width: 1920px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 15%;
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+.dane{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 105%;
+    margin-bottom: 0;
+    border: 0;
+    background: none;
+    color: white;
+}
+.dane:hover{
+    color:black;
+    transition: 0.5s;
+}
+.przyciskiG{
+    margin:0;
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 30px;
+    height: 48px;
+    margin-right: 10px;
+    background: none;
+    color: white;
+    font-size: 105%;
+    transition: 0.3s;
+}
+.przyciskiG:hover{
+    background-color: rgb(78, 78, 78);
+    border: 3px solid rgb(78, 78, 78);
+    transition: 0.3s;
+}
+#menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240, 240, 240);
+    padding-left: 20%;
+    position: static;
+}
+.menu{
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 40px;
+    border: 2px solid rgb(240, 240, 240);
+    background: none;
+    font-size: 110%;
+    color: rgb(32, 32, 32);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.menu:hover{
+    border:2px solid rgb(255, 60, 0);
+    color: rgb(255, 60, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#oferta{
+    width: 100%;
+    height: 500px;
+}
+#tekst{
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-left: 20%;
+    color:rgb(32, 32, 32);
+}
+#tekst h3{
+    margin:0;
+}
+#tekst h1{
+    color:rgb(255, 60, 0);
+    margin: 0;
+    font-size: 330%;
+}
+#tekst h1::first-letter{
+    color:rgb(32, 32, 32);
+}
+#tekst p{
+    margin:0;
+}
+#tekst button{
+    width: 40%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 40px;
+    border: 2px solid rgb(32, 32, 32);
+    background: none;
+    font-size: 110%;
+    color: rgb(32, 32, 32);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#tekst button:hover{
+    border:2px solid rgb(255, 60, 0);
+    color: rgb(255, 60, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#obraz{
+    width: 50%;
+    height: 500px;
+    float: left;
+    border-top-left-radius: 600px;
+    background-color: rgb(255, 191, 172);
+}
+#oferty{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color:white;
+    clear: both;
+}
+#lewy{
+    float: left;
+    width: 35%;
+    height: 100px;
+}
+#prawy{
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding-top: 40px;
+}
+#oferty h3{
+    margin:0;
+    font-size: 140%;
+    color:rgb(197, 197, 197);
+}
+#oferty h3::first-letter{
+    color:rgb(255, 60, 0);
+}
+#ofert h1{
+    margin:0%;
+    font-size: 450%;
+    height: 50px;
+    width: 30%;
+    color:white;
+}
+#oferty button{
+    width: 30%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 5px;
+    height: 40px;
+    border: 2px solid rgb(240, 240, 240);
+    background: none;
+    font-size: 110%;
+    color: rgb(240, 240, 240);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#oferty button:hover{
+    border:2px solid rgb(255, 60, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.offer{
+    float: left;
+    width: 16%;
+    height: 600px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid rgb(255, 60, 0);
+    padding: 30px;
+    text-align: center;
+}
+.offer img{
+    width: 85%;
+    border-radius: 30px;
+}
+.offer h1{
+    color:rgb(255, 60, 0);
+}
+.offer button{
+    height: 40px;
+    border: 2px solid rgb(240, 240, 240);
+    background: none;
+    color: rgb(240, 240, 240);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.offer button:hover{
+    border:2px solid rgb(255, 60, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.offer p{
+    color: rgb(240, 240, 240);
+    font-size: 120%;
+}
+hr{
+    width: 60px;
+    color: rgb(255, 60, 0);
+    float: left;
+    margin-right: 20px;
+    border: 1px solid rgb(255, 60, 0);
+}
+#mapa{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 400px;
+    background-color: white;
+    clear: both;
+    padding-top: 80px;
+}
+#mapa div{
+    width: 45%;
+    padding: 20px;
+    float: left;
+    height: 500px;
+}
+#mapa img{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#mapa h3{
+    color: rgb(44, 44, 44);
+    margin: 0;
+}
+#mapa h1{
+    margin: 0;
+}
+#mapa h1::first-letter{
+    color:rgb(255, 60, 0);
+}
+#mapa p{
+    font-size: 120%;
+    color: rgb(43, 43, 43);
+}
+#mapa button{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 0.5%;
+    height: 40px;
+    border: 2px solid rgb(32, 32, 32);
+    background: none;
+    font-size: 110%;
+    color: rgb(32, 32, 32);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#mapa button:hover{
+    border:2px solid rgb(255, 60, 0);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#opcje{
+    background-color: rgb(255, 60, 0);
+    width: 100%;
+    height: 330px;
+    padding-left: 15%;
+    padding-right: 20%;
+    clear: both;
+}
+.opcja{
+    width: 20%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding-top: 20px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    color:rgb(209, 209, 209);
+}
+.opcja h2{
+    color: white;
+}
+.opcja img{
+    width: 120px;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+.opcja img:hover{
+    width: 80px;
+    transition: 0.8s;
+}
+.opcja button{
+    width: 60%;
+    height: 40px;
+    background: none;
+    border: 0px;
+    font-size: 130%;
+    color: white;
+}
+.opcja button:hover{
+    font-size: 140%;
+    color:rgb(236, 236, 236);
+}
+#FAQ{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+    clear: both;
+    padding-top: 40px;
+}
+#lewyFAQ{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+#lewyFAQ h2{
+    margin: 0;
+    float: left;
+    color: rgb(36, 36, 36);
+    font-size: 100%;
+}
+#lewyFAQ h1{
+    margin: 0;
+    color: rgb(255, 60, 0);
+    font-size: 330%;
+}
+#lewyFAQ h3{
+    margin: 0;
+    color: rgb(155, 155, 155);
+    font-size: 110%;
+}
+#prawyFAQ{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+#prawyFAQ h2{
+    margin: 0;
+    color: rgb(36, 36, 36);
+    font-size: 120%;
+}
+#prawyFAQ p{
+    margin: 0;
+    color: rgb(80, 80, 80);
+}
+#czekam{
+    background-color: rgb(255, 60, 0);
+    width: 100%;
+    height: 190px;
+    padding: 50px; 
+    padding-left: 15%;
+    padding-right: 20%;
+    clear: both;
+    color:white;
+}
+#czekam img{
+    float: left;
+}
+#czekam button{
+    float: left;
+    margin-top: 80px;
+    margin-left: 5%;
+    width: 15%;
+    height: 40px;
+    font-size: 130%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: none;
+    transition: 0.3s;
+}
+#czekam button:hover{
+    background-color: rgb(78, 78, 78);
+    border: 3px solid rgb(78, 78, 78);
+    transition: 0.3s;
+}
+#czekam div{
+    float: left;
+}
+#czekam div h1{
+    margin: 0;
+    font-size: 300%;
+}
+#czekam div p{
+    margin: 0;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    padding-top: 30px;
+    clear: both;
+}
+footer .info{
+    float: left;
+    border-left: 1px solid grey;
+    padding-left: 20px;
+}
+footer .info button{
+    background: none;
+    color: rgb(26, 26, 26);
+    font-size: 110%;
+    border: none;
+}
+footer .info img{
+    width: 30px;
+    float: left;
+}
+footer .info button:hover{
+    color: rgb(255, 60, 0);
+}
+footer .info p{
+    color: black;
+    font-size: 110%;
+    margin: 0;
+    margin-top: 50px;
+}
+#copyright{
+    margin: 0;
+    clear: both;
+    margin-left: 30%;
+    font-size: 80%;
+    color: rgb(112, 112, 112);
+}
+#copyright a{
+    color:black;
+}
+#copyright a:hover{
+    color: rgb(255, 60, 0);
+}
+.anime{
+    height: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.anime:hover{
+    border: 1px solid white;
+}
